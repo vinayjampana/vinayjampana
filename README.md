@@ -43,12 +43,33 @@ Built the app I wanted but couldn't find: a clean Today view, habit streaks, vis
 
 ---
 
+### RoleMiner — Personal Job Discovery Pipeline
+> India-first job scraper that scores roles against your profile using a single LLM call
+
+Tired of manually checking 9 job boards. Built an automated pipeline that scrapes Greenhouse, Lever, Ashby, Cutshort, and Workday tenants, filters by freshness/location/salary/role type, pre-ranks with TF-IDF, then sends the top 50 to an LLM (any OpenAI-compatible API) for structured scoring. Full React dashboard with live pipeline logs via SSE — so you can watch every scraper fire in real time and see exactly why each job was filtered or ranked where it was.
+
+**Architecture:**
+- Python 3.11 + FastAPI + SQLite (companies, runs, run_events)
+- Async HTTPX scrapers for 5 ATS types + per-run structured event logging
+- Pipeline: rule filter → role keyword filter → TF-IDF cosine rank → LLM batch score
+- SSE `/stream/{run_id}` — live events while running, DB replay for finished runs
+- React 18 + Vite + TypeScript + React Query + Recharts dashboard
+- Docker Compose for local + VPS deploy
+- Cost: < $0.002 per run (< ₹0.17)
+
+**Stack:** Python · FastAPI · SQLite · scikit-learn · React · TypeScript · Tailwind · Docker
+
+[Repo](https://github.com/vinayjampana/role-miner)
+
+---
+
 ## What I'm Good At
 
 - **Nx Monorepo Architecture** — migrated 3 React apps (80K+ LOC), cut build time 35%, reduced dependency duplication 25%
 - **Design Systems** — built 40+ component library adopted by 5 microapps and 15+ engineers, cut feature UI time 5 days to 3
 - **Bundle Performance** — 9MB to 5MB (35%), FCP 2.8s to 1.8s, CI budget gates to prevent regression
 - **CI/CD Pipelines** — GitHub Actions: lint → typecheck → Jest 80% coverage → bundle regression → preview deploy → production
+- **Full-Stack Tools** — FastAPI + SQLite backends, async Python scrapers, SSE streams, Docker Compose deploys
 
 ---
 
@@ -73,7 +94,8 @@ Built the app I wanted but couldn't find: a clean Today view, habit streaks, vis
 **Architecture:** Nx Monorepo · Modular Frontend · Vite · Webpack  
 **Performance:** Code splitting · Bundle analysis · Lighthouse · Performance budgets  
 **Testing:** Jest · React Testing Library  
-**DevOps:** GitHub Actions · CI/CD · Vercel · Preview deployments
+**Backend:** Python · FastAPI · SQLite · scikit-learn · HTTPX  
+**DevOps:** GitHub Actions · CI/CD · Docker Compose · Vercel · Preview deployments
 
 ---
 
