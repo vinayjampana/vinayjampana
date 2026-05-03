@@ -11,6 +11,13 @@ Building frontend systems that scale — React · TypeScript · Nx Monorepo · N
 
 </div>
 
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=vinayjampana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&hide_title=true" />
+<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayjampana&theme=tokyonight&hide_border=true" />
+
+</div>
+
 ---
 
 ## Featured Work
@@ -122,29 +129,6 @@ Tired of manually checking 9 job boards. Built an automated pipeline that scrape
 **Testing:** Jest · React Testing Library  
 **Backend:** Python · FastAPI · SQLite · scikit-learn · HTTPX  
 **DevOps:** GitHub Actions · CI/CD · Docker Compose · Vercel · Preview deployments
-
----
-
-## GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=vinayjampana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vinayjampana&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=vinayjampana&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=vinayjampana&theme=tokyonight&no-frame=true&row=1&column=6&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
 
 ---
 
