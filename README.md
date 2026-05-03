@@ -13,7 +13,6 @@ Building frontend systems that scale — React · TypeScript · Nx Monorepo · N
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=vinayjampana&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&hide_title=true" />
 <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayjampana&theme=tokyonight&hide_border=true" />
 
 </div>
