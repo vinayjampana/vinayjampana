@@ -23,13 +23,6 @@ Building frontend systems that scale — React · TypeScript · Nx Monorepo · N
 
 </div>
 
-<div align="center">
-
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=vinayjampana&theme=tokyonight" />
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=vinayjampana&theme=tokyonight" />
-
-</div>
-
 ---
 
 ## Featured Work
