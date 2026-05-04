@@ -17,6 +17,12 @@ Building frontend systems that scale — React · TypeScript · Nx Monorepo · N
 
 </div>
 
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vinayjampana&theme=react-dark&hide_border=true&area=true" />
+
+</div>
+
 ---
 
 ## Featured Work
