@@ -1,6 +1,6 @@
 <div align="center">
 
-# Vinay Jampana — Senior Frontend Engineer
+# Vinay Jampana — Senior Software Engineer
 
 Building frontend systems that scale — React · TypeScript · Nx Monorepo · Next.js · CI/CD
 
