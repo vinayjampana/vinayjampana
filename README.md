@@ -21,7 +21,7 @@ At [Zotok.ai](https://zotok.ai) (Hyderabad, since May 2023) I lead a team of fiv
 - **Alias ranker.** A rarity-weighted matcher over about 15,000 production aliases: leave-one-out hit@1 69% to 78%, and 81% to 95% on real rep phrasings. [Case study](https://vinayjampana.dev/work/alias-ranker)
 - **Evals in CI.** 6 eval sets and 64 scenarios graded against ground-truth SKUs, run twice a day with a breach rule that alerts the team. [Case study](https://vinayjampana.dev/work/order-agent-evals)
 - **Tracing.** OpenTelemetry and Langfuse across a runtime where every block is its own HTTP call. [Case study](https://vinayjampana.dev/work/tracing-a-block-runtime)
-- **UltraTech on WhatsApp.** Led a team of three that moved a plant's offline pour and dispatch forms to a WhatsApp flow in 2.5 weeks. [Case study](https://vinayjampana.dev/work/rmc-dispatch-whatsapp)
+- **UltraTech on WhatsApp.** Led a team of three that moved a plant's offline pour and dispatch forms to a WhatsApp flow in 2.5 weeks. Since May it has captured 3,800+ pour cards and 1,900+ dispatches across 200+ projects. [Case study](https://vinayjampana.dev/work/rmc-dispatch-whatsapp)
 - **Frontend load time.** First load from 15 to 30 seconds to about 1.5 seconds on a 19-app Nx monorepo. [Case study](https://vinayjampana.dev/work/frontend-load-time)
 
 ---
