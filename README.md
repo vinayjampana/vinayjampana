@@ -1,8 +1,8 @@
 <div align="center">
 
-# Vinay Jampana — Senior Software Engineer
+# Vinay Jampana, Senior Software Engineer (AI and Full-Stack)
 
-Building frontend systems that scale — React · TypeScript · Nx Monorepo · Next.js · CI/CD
+I build production LLM agents and the products around them: React and Next.js interfaces, NestJS and Python services, and the evals and tracing that keep agents honest.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinay-jampana)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinayvarma541@gmail.com)
@@ -11,26 +11,27 @@ Building frontend systems that scale — React · TypeScript · Nx Monorepo · N
 
 </div>
 
-<div align="center">
+---
 
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayjampana&theme=tokyonight&hide_border=true" />
+## What I work on
 
-</div>
+At [Zotok.ai](https://zotok.ai) (Hyderabad, since May 2023) I lead a team of five on a B2B WhatsApp-commerce platform, and I own the architecture and delivery of its order-agent and the systems around it. Write-ups of the work are on [vinayjampana.dev](https://vinayjampana.dev); customer names and internal details are removed.
 
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vinayjampana&theme=react-dark&hide_border=true&area=true" />
-
-</div>
+- **Order-agent platform.** One opaque LangGraph agent became seven typed steps composed on a visual canvas, so behaviour changes per customer need no redeploy. [Case study](https://vinayjampana.dev/work/order-agent-platform)
+- **Alias ranker.** A rarity-weighted matcher over about 15,000 production aliases: leave-one-out hit@1 69% to 78%, and 81% to 95% on real rep phrasings. [Case study](https://vinayjampana.dev/work/alias-ranker)
+- **Evals in CI.** 6 eval sets and 64 scenarios graded against ground-truth SKUs, run twice a day with a breach rule that alerts the team. [Case study](https://vinayjampana.dev/work/order-agent-evals)
+- **Tracing.** OpenTelemetry and Langfuse across a runtime where every block is its own HTTP call. [Case study](https://vinayjampana.dev/work/tracing-a-block-runtime)
+- **UltraTech on WhatsApp.** Led a team of three that moved a plant's offline pour and dispatch forms to a WhatsApp flow in 2.5 weeks. [Case study](https://vinayjampana.dev/work/rmc-dispatch-whatsapp)
+- **Frontend load time.** First load from 15 to 30 seconds to about 1.5 seconds on a 19-app Nx monorepo. [Case study](https://vinayjampana.dev/work/frontend-load-time)
 
 ---
 
-## Featured Work
+## Side projects
 
 ### vite-plugin-bundle-size-tracker — Published npm Package
 > Tracks and compares Vite bundle sizes across builds — warns before regressions ship
 
-Born from real pain: I reduced a 9MB JS bundle to 5MB at Zotok.ai and needed a way to make sure it never crept back. Built this so any Vite project can enforce bundle budgets without writing custom CI scripts.
+Born from real pain: I was tuning the bundle of a large monorepo at Zotok.ai and needed a way to make sure it never crept back. Built this so any Vite project can enforce bundle budgets without writing custom CI scripts.
 
 **What it does:**
 - Tracks bundle size history across N builds
@@ -84,59 +85,15 @@ Tired of manually checking 9 job boards. Built an automated pipeline that scrape
 
 ---
 
-## What I'm Good At
-
-- **Nx Monorepo Architecture** — migrated 3 React apps (80K+ LOC), cut build time 35%, reduced dependency duplication 25%
-- **Design Systems** — built 40+ component library adopted by 5 microapps and 15+ engineers, cut feature UI time 5 days to 3
-- **Bundle Performance** — 9MB to 5MB (35%), FCP 2.8s to 1.8s, CI budget gates to prevent regression
-- **CI/CD Pipelines** — GitHub Actions: lint → typecheck → Jest 80% coverage → bundle regression → preview deploy → production
-- **Full-Stack Tools** — FastAPI + SQLite backends, async Python scrapers, SSE streams, Docker Compose deploys
-
----
-
-## Experience
-
-**Senior Software Engineer @ Zotok.ai** *(May 2023 – Present)*
-- Led Nx monorepo migration for 3 React applications, 80K+ LOC
-- Built versioned design system: 40+ components, 5 microapps, 15+ engineers
-- Reduced JS bundle 9MB → 5MB, FCP 2.8s → 1.8s
-- Built full GitHub Actions CI/CD pipeline from scratch
-- Reduced post-release regressions 20% via PR guidelines + architecture reviews
-
-**Senior Developer @ Sumeru Software** *(Aug 2022 – Jan 2023)*
-
-**SDE1 @ Aerchain** *(Apr 2021 – Jan 2022)*
-
----
-
 ## Stack
 
-<div align="center">
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-
-</div>
-
-**Frontend:** React 18/19 · TypeScript · Next.js · Redux Toolkit · Context API  
-**Architecture:** Nx Monorepo · Modular Frontend · Vite · Webpack  
-**Performance:** Code splitting · Bundle analysis · Lighthouse · Performance budgets  
-**Testing:** Jest · React Testing Library  
-**Backend:** Python · FastAPI · SQLite · scikit-learn · HTTPX  
-**DevOps:** GitHub Actions · CI/CD · Docker Compose · Vercel · Preview deployments
+**AI:** LLM agents and tool calling, LangGraph, structured outputs, prompt engineering, LLM evaluation, Langfuse, OpenTelemetry, OCR and vision, OpenSearch kNN retrieval  
+**Backend:** TypeScript, Node.js, NestJS, Python (FastAPI), PostgreSQL, Prisma, Hasura  
+**Frontend:** React 18/19, Next.js, TypeScript, Redux Toolkit, Module Federation, Vite, Nx  
+**Cloud:** AWS (ECS, Lambda, S3, Amplify), Docker, GitHub Actions
 
 ---
 
-**Open to Senior Frontend / SDE2-SDE3 roles — Hyderabad, Bangalore, or Remote**
+**Open to senior AI full-stack and applied AI roles. Hyderabad, Bengaluru or remote.**
 
 vinayvarma541@gmail.com · [linkedin.com/in/vinay-jampana](https://linkedin.com/in/vinay-jampana) · [vinayjampana.dev](https://vinayjampana.dev)
