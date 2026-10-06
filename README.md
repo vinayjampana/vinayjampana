@@ -20,7 +20,6 @@ At [Zotok.ai](https://zotok.ai) (Hyderabad, since May 2023) I design and build t
 - **Order-agent platform.** One large LangGraph agent was split into seven typed steps on a visual canvas, so behaviour can change per customer without any redeploy. [Case study](https://vinayjampana.dev/work/order-agent-platform)
 - **Matching engine.** A matcher that gives more weight to rare words, over about 15,000 production aliases: hit@1 went from 69% to 78% in leave-one-out testing, and from 81% to 95% on real rep messages. [Case study](https://vinayjampana.dev/work/alias-ranker)
 - **Evals in CI.** 6 eval sets and 64 scenarios checked against the correct SKUs, run twice a day, with an alert when the score drops. [Case study](https://vinayjampana.dev/work/order-agent-evals)
-- **Tracing.** OpenTelemetry and Langfuse tracing for a runtime where every block is a separate HTTP call. [Case study](https://vinayjampana.dev/work/tracing-a-block-runtime)
 - **WhatsApp workflow for a plant.** Replaced offline pour and dispatch forms with a WhatsApp flow. Since May it has captured over 3,800 pour cards and 1,900 dispatches across 200+ projects. [Case study](https://vinayjampana.dev/work/rmc-dispatch-whatsapp)
 - **Frontend load time.** First load reduced from 15-30 seconds to about 1.5 seconds across an Nx monorepo. [Case study](https://vinayjampana.dev/work/frontend-load-time)
 
